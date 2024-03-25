@@ -1,0 +1,74 @@
+
+.bannerArea{
+    /* height: 90vh; */
+  border-radius: 0 0 48% 48%;
+  background-color: #fff;
+  box-shadow:0 20px 20px -10px #f0617e;
+}
+.banner{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+.textArea{
+  padding-left: 100px ;
+  /* width: 574px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bannerText{
+  color: #3F3F3F;
+  font-size: 48px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.spanText{
+color: #f72d57;
+}
+.ptext{
+  padding-right: 30px;
+  /* width: ; */
+}
+.bannerImage{
+  margin-top: -50px;
+  width: 400px;
+  background-image: url('https://i.ibb.co/72fCGhm/Splash-food-1.png');
+  background-position: center;
+  background-size: cover;
+ 
+}
+.bannerImg{
+width: 600px;
+}
+.hadingText{
+  text-align: center;
+  margin-top:50px ;
+  font-size: 38px;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+/* media */
+
+@media (max-width: 768px) {
+  .banner {
+    display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  }
+  .textArea{
+    padding-left: 10px;
+  }
+  .bannerArea{
+  border-radius: 0 0 200px 200px;
+  }
+  .bannerImg{
+    width: 500px;
+    }
+}

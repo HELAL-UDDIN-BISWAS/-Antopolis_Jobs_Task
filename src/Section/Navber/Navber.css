@@ -1,0 +1,119 @@
+.navbar {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 15px 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  color: #323131;
+  }
+  
+  .navbar-toggle {
+    font-size: 20px;
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .navbar-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: #fff;
+  }
+  
+  .navbar-links {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .navbar-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    margin: 0 10px;
+font-size: 20px;
+padding-top: 3px;
+
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #323131;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-links a:hover {
+    color: #ccc;
+  }
+  .brandImage{
+    display: none;
+  }
+  .button {
+    font-size: 16px;
+    color: #fff;
+    background-color: #f72d57;
+    padding: 20px;
+    padding-right: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+  }
+  .button :hover{
+    cursor: pointer;
+
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-toggle {
+      display: block;
+      color: black;
+    }
+    .navbar-links {
+      position: absolute;
+      top: 70px;
+      right: 0;
+      background-color:  #f72d57;
+      width: 60%;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 5px;
+      padding: 10px;
+    }
+    .navbar-links.active {
+      display: flex;
+    }
+    .navbar-links ul {
+      flex-direction: column;
+    }
+    .navbar-links li {
+      margin: 10px 0;
+    }
+    .brandImage{
+      margin-top: 50px;
+      margin-bottom: 50px;
+      display: block;
+    }
+    
+  }
