@@ -1,0 +1,47 @@
+.AllItem {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.AllItem .item {
+    margin-bottom: 20px ;
+    width: 280px;
+    background-color: #f0f0f0;
+    height: 86px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    box-shadow: 0 0 5px -2px rgb(62, 61, 61);
+}
+
+.AllItem .item .icon {
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.AllItem .item button {
+    display: flex;
+    padding: 10px 20px;
+ 
+    align-items: center;
+    color: #f72d57;
+    justify-content: center;
+    border: none;
+    font-size: 24px;
+    text-align: center;
+}
+.AllItem .item:hover button{
+    color: #ffffff;
+ background-color: #f72d57;
+ cursor: pointer;
+}
+.AllItem .item:hover{
+ background-color: #f72d57;
+
+}

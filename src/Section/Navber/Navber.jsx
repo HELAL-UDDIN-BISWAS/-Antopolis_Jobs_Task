@@ -5,6 +5,7 @@ import Tastenow1 from "./../../../public/Taste now1.png"
 import { useState } from "react";
 import "./../../Section/Navber/Navber.css"
 import { FiMenu } from "react-icons/fi";
+import { MdOutlineShoppingCart } from "react-icons/md";
 
 const NavberPage = () => {
 
@@ -17,13 +18,14 @@ const NavberPage = () => {
         <div>
 <nav className="navbar">
       <div className="navbar-container">
+      <button className="navbar-toggle" onClick={toggleNavbar}>
+        <FiMenu />
+        </button>
         <div className="navbar-brand">
           <img src={Tastenow} alt="" />
         </div>
-        <button className="navbar-toggle" onClick={toggleNavbar}>
-        <FiMenu />
-        </button>
-        <div>
+        
+        <div className="item">
         <div className={`navbar-links ${isOpen ? 'active' : ''}`}>
           <ul>
             <img className="brandImage" src={Tastenow1} alt="" />
@@ -34,6 +36,8 @@ const NavberPage = () => {
             <button className="button">sign up</button>
           </ul>
             </div>
+           
+            <MdOutlineShoppingCart className="h1"/>
         </div>
         
       </div>
