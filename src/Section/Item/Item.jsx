@@ -6,7 +6,7 @@ import { LuSalad } from "react-icons/lu";
 import './../../Section/Item/Item.css'
 const Item = () => {
     return (
-        <div className="ItemWidth">
+        <div className="container">
             <div className="AllItem">
                 <div className="item"><button><IoPizzaSharp className="icon"/>Pizzas</button></div>
                 <div className="item"><button><LiaHamburgerSolid className="icon"/>Burgers</button></div>

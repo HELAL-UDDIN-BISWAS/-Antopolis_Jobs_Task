@@ -48,6 +48,17 @@ width: 600px;
   font-size: 38px;
   font-weight: 600;
 }
+.hadingText2{
+  max-width: 1180px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 38px;
+  font-weight: 600;
+}
+.hadingText2 span{
+  color: #f72d57;
+}
 
 
 

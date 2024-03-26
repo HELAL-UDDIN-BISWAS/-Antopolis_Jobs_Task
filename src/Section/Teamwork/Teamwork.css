@@ -1,0 +1,57 @@
+.Teamwork{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.Teamwork .section{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin: 50px 0;
+}
+.Teamwork .section .text{
+    width: 470px;
+    flex: 1;
+}
+span{
+    color: #f72d57;
+}
+.Teamwork .section h2{
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+.Teamwork .section1{
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    display: flex;  
+}
+.Teamwork .section1 .text{
+    width: 470px;
+    
+}
+.Teamwork .section1 .text h2{
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .Teamwork .section1{
+     
+       flex-direction: column;
+    }
+    .Teamwork .section1 .text{
+        order: 9999;
+
+    }
+    .Teamwork .section{
+       
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .Teamwork .section .text{
+        padding-left:55px;
+    }
+
+}
