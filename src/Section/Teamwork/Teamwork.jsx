@@ -1,5 +1,7 @@
 import "./../Teamwork/Teamwork.css"
 import image1 from "./../../../public/unsplash_Oalh2MojUuk.png"
+import image2 from "./../../../public/unsplash_KdeqA3aTnBY.png"
+
 
 const Teamwork = () => {
     return (
@@ -19,7 +21,7 @@ const Teamwork = () => {
                     <p>TasteNow donates $1 penny for every purchase made from the app to an organization that takes care of our enviromet. We belive that with everyone´s help, we can make a better world.</p>
                 </div>
                 <div>
-                    <img src={image1} alt="img" />
+                    <img src={image2} alt="img" />
                 </div>
                 
             </div>
